@@ -34,6 +34,10 @@ const movie = {
   rating: "PG-13",
   runtime: 169,
 };
+function Movie(){
+console.log (movie.title)
+console.log (movie.year)
+}
 
 // TODO 1: Print the movie title
 // console.log(...)
