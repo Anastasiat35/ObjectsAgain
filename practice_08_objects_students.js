@@ -33,12 +33,24 @@ const movie = {
   director: "Christopher Nolan",
   rating: "PG-13",
   runtime: 169,
+  watched: true
 };
-function Movie(){
+function Movie(m){
 console.log (movie.title)
-console.log (movie.year)
-}
+console.log (movie.director)
+if (movie.runtine > 120)
+  console.log (true)
+else if (movie.runtime <=120)
+  console.log (false)
 
+console. log (movie.title)
+console.log (movie.year)
+console.log (movie.director)
+console.log (movie.rating)
+console.log (movie.runtime)
+console.log (movie.watched)
+}
+console.log (Movie(movie))
 // TODO 1: Print the movie title
 // console.log(...)
 
@@ -72,7 +84,13 @@ console.log (movie.year)
 
 function createStudent(name, grade, gpa) {
   // TODO: return an object with name, grade, gpa, and isHonors
+  return{
+    name: name,
+    grade: grade,
+    gpa: gpa,
+  }
 }
+createStudent ("Jane", 11, 3.8)
 
 // Test your function — uncomment when ready:
 // console.log("\n--- Problem 2 ---");
