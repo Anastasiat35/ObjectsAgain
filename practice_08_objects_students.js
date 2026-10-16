@@ -84,13 +84,20 @@ console.log (Movie(movie))
 
 function createStudent(name, grade, gpa) {
   // TODO: return an object with name, grade, gpa, and isHonors
+ 
   return{
-    name: name,
-    grade: grade,
-    gpa: gpa,
+    name: anastasia,
+    grade: 10,
+    gpa: 4.0,
+    ishonors: true
   }
-}
-createStudent ("Jane", 11, 3.8)
+  if
+   if (gpa >= 3.5){
+    gpa = ishonors
+  }
+} 
+
+createStudent ("Alex", 11, 3.7)
 
 // Test your function — uncomment when ready:
 // console.log("\n--- Problem 2 ---");
