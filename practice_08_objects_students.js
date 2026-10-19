@@ -84,20 +84,16 @@ console.log (Movie(movie))
 
 function createStudent(name, grade, gpa) {
   // TODO: return an object with name, grade, gpa, and isHonors
- 
-  return{
-    name: anastasia,
-    grade: 10,
-    gpa: 4.0,
-    ishonors: true
-  }
-  if
-   if (gpa >= 3.5){
-    gpa = ishonors
-  }
-} 
-
-createStudent ("Alex", 11, 3.7)
+const student = {
+ name: name,
+ grade: grade,
+ gpa: gpa,
+ ishonors: gpa >= 3.5
+ }
+ console.log (student.name, student.grade, student.gpa)
+}
+console.log (createStudent ("Alex", 11, 3.7))
+console.log (createStudent ("Sam", 10, 2.9))
 
 // Test your function — uncomment when ready:
 // console.log("\n--- Problem 2 ---");
@@ -118,6 +114,7 @@ createStudent ("Alex", 11, 3.7)
 function findByName(students, targetName) {
   // TODO: use .find() to search by name
   // Hint: .find() returns undefined if nothing matches — convert that to null using || (or) operator
+  students.find
 }
 
 // Test your function — uncomment when ready:
