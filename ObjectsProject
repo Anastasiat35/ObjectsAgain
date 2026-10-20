@@ -1,0 +1,26 @@
+const Techsuits = [
+    {
+        name: "Powerskin Air3",
+        brand: "Arena",
+        gender: "Women",
+        color: "Black",
+        back: "Open back",
+        price: 500.00
+    }
+    {
+        name: "Powerskin Air3",
+        brand: "Arena",
+        gender: "Women",
+        color: "Black",
+        back: "Closed back",
+        price: 500.00
+    }
+    {
+        name: "Powerskin Veloce Violet Surge Limited Edition",
+        brand:"Arena",
+        gender: "Women",
+        color: "Pink",
+        back: "Open Back",
+        price: 600.00
+    }
+]
