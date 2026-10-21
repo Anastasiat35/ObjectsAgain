@@ -20,7 +20,87 @@ const Techsuits = [
         brand:"Arena",
         gender: "Women",
         color: "Pink",
-        back: "Open Back",
+        back: "Open back",
         price: 600.00
+    }
+    {
+        name: "Powerskin Veloce Violet Surge Limited Edition",
+        brand: "Arena",
+        gender: "Women",
+        color: "Pink",
+        back: "Closed back",
+        price: 600.00
+    }
+    {
+        name: "Powerskin Primo Limited Edition",
+        brand: "Arena",
+        gender: "Women",
+        color: "Purple",
+        back: "Open back",
+        price: 650.00
+    }
+     {
+        name: "Powerskin Primo Limited Edition",
+        brand: "Arena",
+        gender: "Women",
+        color: "Purple",
+        back: "Closed back",
+        price: 650.00
+    }
+     {
+        name: "Powerskin Carbon Glide",
+        brand: "Arena",
+        gender: "Women",
+        color: "Black",
+        back: "Open back",
+        price: 550.00
+    }
+     {
+        name: "Powerskin Carbon Glide",
+        brand: "Arena",
+        gender: "Women",
+        color: "Black",
+        back: "Closed back",
+        price: 550.00
+    }
+     {
+        name: "Powerskin Carbon Glide Limited Edition",
+        brand: "Arena",
+        gender: "Women",
+        color: "Pink",
+        back: "Open back",
+        price: 575.00
+    }
+     {
+        name: "Powerskin Carbon Glide Limited Edition",
+        brand: "Arena",
+        gender: "Women",
+        color: "Purple",
+        back: "Closed back",
+        price: 575.00
+    }
+     {
+        name: "Powerskin Carbon Air2 Limited Edition",
+        brand: "Arena",
+        gender: "Women",
+        color: "Blue",
+        back: "Open back",
+        price: 460.00
+    }
+     {
+        name: "Powerskin Carbon Air2 Limited Edition",
+        brand: "Arena",
+        gender: "Women",
+        color: "Blue",
+        back: "Closed back",
+        price: 460.00
+    }
+     {
+        name: "Powerskin Carbon Air2 Limited Edition",
+        brand: "Arena",
+        gender: "Women",
+        color: "Blue",
+        back: "Open back",
+        price: 460.00
     }
 ]
