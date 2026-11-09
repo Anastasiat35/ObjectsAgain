@@ -114,7 +114,7 @@ console.log (createStudent ("Sam", 10, 2.9))
 function findByName(students, targetName) {
   // TODO: use .find() to search by name
   // Hint: .find() returns undefined if nothing matches — convert that to null using || (or) operator
-  students.find
+  const Found = students.find ()
 }
 
 // Test your function — uncomment when ready:

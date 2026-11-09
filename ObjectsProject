@@ -291,3 +291,8 @@ const Techsuits = [
 function filterBrand (brand){
     
 }
+const buttons = document.querySelectorALL("button");
+/* buttons.forEach((button)=> button.addEventListener("click", fuction (event){
+    console.log(event.target.closest(".card").getAttribute("data-item"));
+});
+); */
