@@ -289,5 +289,5 @@ const Techsuits = [
     },
 ];
 function filterBrand (brand){
-    let result = Techsuits.filter ()
+    
 }
