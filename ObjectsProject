@@ -296,3 +296,17 @@ const buttons = document.querySelectorALL("button");
     console.log(event.target.closest(".card").getAttribute("data-item"));
 });
 ); */
+
+function inject(figure){
+    const techsuits = document.querySelector ("#card");
+    techsuits.forEach((techsuit)=> {
+        techsuit.insertAdjacentHTML(
+            "beforeend",
+            `<div class= product">
+            <h2 class= "product-header"> $(techsuit.name)</h2>
+            button class
+        );
+        
+        });
+};
+

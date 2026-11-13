@@ -9,7 +9,7 @@ body,
 }
 
 body {
-  background-color: #f8a2bc;
+  background-color: #000000;
   font-family: ui-sans-serif, system-ui, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -43,4 +43,24 @@ body {
   font-size: 2.4rem;
   margin-bottom: 3rem;
   text-shadow: 0 2px 6px rgb(11, 3, 88);
+}
+.hi {
+  border-color: rgb(10, 1, 61);
+}
+.button {
+  display: inline-block;
+  padding: 1.4rem 3.2rem;
+  font-size: 2rem;
+  background-color: #f8a2bc;
+  border-radius: 5rem;
+  color: #babaff;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #02295cfa;
+  width: 30rem;
+  height: 55rem;
+  margin: 2.5rem;
 }
