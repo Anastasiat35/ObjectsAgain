@@ -1,66 +1,109 @@
 html,
 body,
 * {
-  font-size: 10px;
+  font-size: 13px;
   box-sizing: border-box;
-  font-style: normal;
   margin: 0;
   padding: 0;
 }
-
 body {
-  background-color: #000000;
+  background-color: #0a0a0a;
   font-family: ui-sans-serif, system-ui, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
+  color: #fdfdff;
 }
-
 .Tech {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   height: 100vh;
-  color: rgb(255, 255, 255);
-  background-image: linear-gradient(rgb(0, 0, 0), #8ee3ee), url("Speedo.webp");
+  color: #ffffff;
+  background-image: linear-gradient(#0004059d, #57dcfdb2), url("speedo.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-
 .Tech-content {
   width: 85rem;
-  padding: 5rem;
+  padding: 2rem;
 }
-
 .Tech h1 {
-  font-size: 10rem;
+  font-size: 7rem;
   margin-bottom: 2rem;
-  text-shadow: 0 2px 10px rgb(252, 252, 253);
+  text-shadow: 0 2px 8px rgb(248, 248, 248);
 }
-
 .Tech p {
   font-size: 2.4rem;
   margin-bottom: 3rem;
-  text-shadow: 0 2px 6px rgb(11, 3, 88);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
-.hi {
-  border-color: rgb(10, 1, 61);
-}
-.button {
+.btn {
   display: inline-block;
-  padding: 1.4rem 3.2rem;
-  font-size: 2rem;
-  background-color: #f8a2bc;
+  padding: 1.8rem 3.2rem;
+  font-size: 3rem;
+  background-color: #08004e49;
+  text-decoration: none;
   border-radius: 5rem;
-  color: #babaff;
+  color: rgb(0, 23, 71);
 }
 .card {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #02295cfa;
+  background-color: #5fdefdb7;
+  color: #0e0041;
   width: 30rem;
   height: 55rem;
-  margin: 2.5rem;
+  /* margin is space between elements */
+  margin: 2.5rem 5rem;
+  border-radius: 0.8rem;
+  align-items: center;
+}
+.card-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.card-img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+.card-price {
+  margin: 0;
+}
+.card-btn {
+  height: 4rem;
+  padding: 0 1.6rem;
+  background-color: #faeff6;
+  color: #ccd6fc;
+  border: 1px solid #000077;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 700px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.card-btn:hover {
+  background-color: #01010a;
+}
+.box {
+  height: 30rem;
+  width: 25%;
+  background-color: #041769;
+  margin: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  display: flex;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3rem auto;
+  gap: 10%;
 }
