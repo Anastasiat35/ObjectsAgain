@@ -291,7 +291,6 @@ const Techsuits = [
 
 function inject(figure) {
   const hi = document.querySelector(".container");
-  Techsuits.forEach(Techsuit);
   hi.insertAdjacentHTML(
     "beforeend",
     `<div class= "product">
@@ -301,3 +300,13 @@ function inject(figure) {
   );
 }
 inject();
+Techsuits.forEach(function (Techsuit) {
+  console.log(
+    Techsuit.name +
+      Techsuit.brand +
+      Techsuit.gender +
+      Techsuit.color +
+      Techsuit.back +
+      Techsuit.price,
+  );
+});
