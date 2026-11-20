@@ -1,7 +1,7 @@
 html,
 body,
 * {
-  font-size: 13px;
+  font-size: 10px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -41,21 +41,21 @@ body {
 }
 .btn {
   display: inline-block;
-  padding: 1.8rem 3.2rem;
-  font-size: 3rem;
-  background-color: #08004e49;
+  padding: 1rem 2.5rem;
+  font-size: 1.5rem;
+  background-color: #000000;
   text-decoration: none;
   border-radius: 5rem;
-  color: rgb(0, 23, 71);
+  color: #61b5b8;
 }
 .card {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #5fdefdb7;
-  color: #0e0041;
+  background-color: #b0efff;
+  color: #00413e;
   width: 30rem;
-  height: 55rem;
+  height: 51rem;
   /* margin is space between elements */
   margin: 2.5rem 5rem;
   border-radius: 0.8rem;
@@ -79,8 +79,8 @@ body {
   height: 4rem;
   padding: 0 1.6rem;
   background-color: #faeff6;
-  color: #ccd6fc;
-  border: 1px solid #000077;
+  color: #ccf6fc;
+  border: 1px solid #00004e;
   border-radius: 0.4rem;
   font-size: 1.4rem;
   font-weight: 700px;

@@ -6,6 +6,7 @@ const Techsuits = [
     color: "Black",
     back: "Open back",
     price: 500.0,
+    img: "",
   },
   {
     name: "Powerskin Air3",
@@ -14,6 +15,7 @@ const Techsuits = [
     color: "Blue",
     back: "Open back",
     price: 500.0,
+    img: "",
   },
   {
     name: "Powerskin Air3",
@@ -22,6 +24,7 @@ const Techsuits = [
     color: "Black",
     back: "Closed back",
     price: 500.0,
+    img: "",
   },
   {
     name: "Powerskin Air3",
@@ -30,6 +33,7 @@ const Techsuits = [
     color: "Blue",
     back: "Closed back",
     price: 500.0,
+    img: "",
   },
   {
     name: "Powerskin Veloce Violet Surge Limited Edition",
@@ -38,6 +42,7 @@ const Techsuits = [
     color: "Pink",
     back: "Open back",
     price: 600.0,
+    img: "",
   },
   {
     name: "Powerskin Veloce Violet Surge Limited Edition",
@@ -46,6 +51,7 @@ const Techsuits = [
     color: "Pink",
     back: "Closed back",
     price: 600.0,
+    img: "",
   },
   {
     name: "Powerskin Primo Limited Edition",
@@ -54,6 +60,7 @@ const Techsuits = [
     color: ["Purple", "Yellow"],
     back: "Open back",
     price: 650.0,
+    img: "",
   },
   {
     name: "Powerskin Primo Limited Edition",
@@ -62,6 +69,7 @@ const Techsuits = [
     color: ["Green", "Purple"],
     back: "Open back",
     price: 650.0,
+    img: "",
   },
   {
     name: "Powerskin Primo Limited Edition",
@@ -70,6 +78,7 @@ const Techsuits = [
     color: ["Green", "Purple"],
     back: "Closed back",
     price: 650.0,
+    img: "",
   },
   {
     name: "Powerskin Primo Limited Edition",
@@ -78,6 +87,7 @@ const Techsuits = [
     color: ["Purple", "Yellow"],
     back: "Closed back",
     price: 650.0,
+    img: "",
   },
   {
     name: "Powerskin Primo Limited Edition",
@@ -86,6 +96,7 @@ const Techsuits = [
     color: ["Black", "Red"],
     back: "Closed back",
     price: 650.0,
+    img: "",
   },
   {
     name: "Powerskin Primo Limited Edition",
@@ -94,6 +105,7 @@ const Techsuits = [
     color: ["Black", "Red"],
     back: "Open back",
     price: 650.0,
+    img: "",
   },
   {
     name: "Powerskin Primo Limited Edition",
@@ -102,6 +114,7 @@ const Techsuits = [
     color: ["Purple", "Blue"],
     back: "Open back",
     price: 650.0,
+    img: "",
   },
   {
     name: "Powerskin Primo Limited Edition",
@@ -110,6 +123,7 @@ const Techsuits = [
     color: ["Purple", "Yellow"],
     back: "Closed back",
     price: 650.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Glide",
@@ -118,6 +132,7 @@ const Techsuits = [
     color: "Black",
     back: "Open back",
     price: 550.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Glide",
@@ -126,6 +141,7 @@ const Techsuits = [
     color: "Black",
     back: "Closed back",
     price: 550.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Glide",
@@ -134,6 +150,7 @@ const Techsuits = [
     color: "Blue",
     back: "Closed back",
     price: 550.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Glide",
@@ -142,6 +159,7 @@ const Techsuits = [
     color: "Blue",
     back: "Open back",
     price: 550.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Glide Limited Edition",
@@ -150,6 +168,7 @@ const Techsuits = [
     color: "Pink",
     back: "Open back",
     price: 575.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Glide Limited Edition",
@@ -158,6 +177,7 @@ const Techsuits = [
     color: "Purple",
     back: "Closed back",
     price: 575.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Glide Limited Edition",
@@ -166,6 +186,7 @@ const Techsuits = [
     color: ["Pink", "Black"],
     back: "Open back",
     price: 575.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Glide Limited Edition",
@@ -174,6 +195,7 @@ const Techsuits = [
     color: "Blue",
     back: "Open back",
     price: 575.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Glide Limited Edition",
@@ -182,6 +204,7 @@ const Techsuits = [
     color: "Orange",
     back: "Closed back",
     price: 575.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Glide Limited Edition",
@@ -190,6 +213,7 @@ const Techsuits = [
     color: "Orange",
     back: "Open back",
     price: 575.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Air2 Limited Edition",
@@ -198,6 +222,7 @@ const Techsuits = [
     color: "Blue",
     back: "Open back",
     price: 460.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Air2 Limited Edition",
@@ -206,6 +231,7 @@ const Techsuits = [
     color: "Orange",
     back: "Open back",
     price: 460.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Air2 Limited Edition",
@@ -214,6 +240,7 @@ const Techsuits = [
     color: "Purple",
     back: "Open back",
     price: 460.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Air2 Limited Edition",
@@ -222,6 +249,7 @@ const Techsuits = [
     color: "Blue",
     back: "Closed back",
     price: 460.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Air2 Limited Edition",
@@ -230,6 +258,7 @@ const Techsuits = [
     color: "Orange",
     back: "Closed back",
     price: 460.0,
+    img: "",
   },
   {
     name: "Powerskin Carbon Air2 Limited Edition",
@@ -238,6 +267,7 @@ const Techsuits = [
     color: "Purple",
     back: "Closed back",
     price: 460.0,
+    img: "",
   },
   {
     name: "Fastskin LZR Pure Valor 2.0",
@@ -246,6 +276,7 @@ const Techsuits = [
     color: "Blue",
     back: "Open back",
     price: 574.0,
+    img: "",
   },
   {
     name: "Fastskin LZR Pure Valor 2.0",
@@ -254,6 +285,7 @@ const Techsuits = [
     color: "Red",
     back: "Open back",
     price: 574.0,
+    img: "",
   },
   {
     name: "Fastskin LZR Intent 2.0",
@@ -262,6 +294,7 @@ const Techsuits = [
     color: "Black",
     back: "Open back",
     price: 674.0,
+    img: "",
   },
   {
     name: "Fastskin LZR Intent 2.0",
@@ -270,6 +303,7 @@ const Techsuits = [
     color: "Blue",
     back: "Open back",
     price: 674.0,
+    img: "",
   },
   {
     name: "Fastskin LZR Pure Valor Printed2.0",
@@ -278,6 +312,7 @@ const Techsuits = [
     color: ["Black", "Red"],
     back: "Open back",
     price: 714.0,
+    img: "",
   },
   {
     name: "Fastskin LZR Pure Intent 2.0",
@@ -286,27 +321,22 @@ const Techsuits = [
     color: ["Blue", "Yellow"],
     back: "Open back",
     price: 764.0,
+    img: "",
   },
 ];
 
 function inject(figure) {
-  const hi = document.querySelector(".container");
-  hi.insertAdjacentHTML(
+  //finds the container div on page
+  const container = document.querySelector(".container");
+  //insert new HTML into container based on figure
+  container.insertAdjacentHTML(
     "beforeend",
-    `<div class= "product">
+    `<div class= "card">
             <h2 class= "product-header"> ${figure.name}</h2>
             <button class="btn">Add to cart</button>
     </div>`,
   );
 }
-inject();
-Techsuits.forEach(function (Techsuit) {
-  console.log(
-    Techsuit.name +
-      Techsuit.brand +
-      Techsuit.gender +
-      Techsuit.color +
-      Techsuit.back +
-      Techsuit.price,
-  );
-});
+
+//for each acccess each item in list and executes a function
+Techsuits.forEach((techsuit) => inject(techsuit));
